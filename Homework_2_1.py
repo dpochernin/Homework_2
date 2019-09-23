@@ -1,7 +1,8 @@
 s = str(input("Enter string \n"))
 if s.isdigit():
     print("This string is digit")
-print("Not digit string")
+else:
+    print("Not digit string")
 print("In this string is ", s.count(" "), " spaces")
 print("In this string is ", s.count("."), " dots")
 s2 = "Homework"
