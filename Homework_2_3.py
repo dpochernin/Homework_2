@@ -1,8 +1,7 @@
 y = int(input("Enter year:"))
 
-if not (y % 100):
+if (y % 4) or (not (y % 100) and (y % 400)):
     print("No")
-elif not (y % 4) or not (y % 400):
-    print("yes")
 else:
-    print("No")
+    print("yes")
+#еле понял алгоритм, чего в календаре все так сложно ...
